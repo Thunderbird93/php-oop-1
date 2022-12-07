@@ -5,4 +5,5 @@ class Movie{
     public $protagonist;
     public $genre;
     public $lenght;
+    public $poster;
 }
