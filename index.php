@@ -31,5 +31,9 @@ class Movie{
 
 $taxi = new Movie("Taxi Driver", "Martin Scorsese", "Robert De Niro", "Dramma", "114", "https://sothebys-md.brightspotcdn.com/12/c0/48045e944ad4885bd31da2a1ce96/taxi-driver.jpg", "eng");
 $xmas = new Movie("Vacanze di natale '95", "Neri Parenti", "Christian De Sica", "Commedia", "95", "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQruU0hMGy1lLxFRloYYxMOkzKJx8qUhmZCfCI-aOMnT_I9uIvo", "ita");
+
+$taxi ->printMovie('eng');
+$xmas ->printMovie('ita');
+
 var_dump($taxi);
 var_dump($xmas);
