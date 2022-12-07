@@ -7,7 +7,7 @@ class Movie{
     public $lenght;
     public $poster;
 
-    function __construct($_title, $_director)
+    function __construct($_title, $_director, $_protagonist, $_genre, $_lenght, $_poster)
     {
         $this->title = $_title;
         $this->director = $_director;
@@ -19,3 +19,5 @@ class Movie{
 }
 
 
+$taxi = new Movie("Taxi Driver", "Martin Scorsese", "Robert De Niro", "Dramma", "114 minuti", "https://sothebys-md.brightspotcdn.com/12/c0/48045e944ad4885bd31da2a1ce96/taxi-driver.jpg");
+var_dump($taxi);
